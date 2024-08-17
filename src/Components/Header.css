@@ -1,0 +1,77 @@
+/* src/Components/Header.css */
+.header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: white;
+  }
+  
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  /* .header__searchIcon {
+    padding: 50px;
+    height: 220px;
+    background-color: #d68b28;
+    background: fixed;
+  } */
+
+  .header__searchIcon .MuiSvgIcon-root {
+    color: white; /* Ensure icon color is visible */
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header__optionLineOne {
+    font-size: 10px;
+    color: white;
+  }
+  
+  .header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+  }
+  
+  .header__basketIconContainer {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
